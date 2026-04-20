@@ -1,0 +1,28 @@
+.panel {
+  border: 1px solid var(--obs-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  font-family: var(--obs-font-mono);
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--obs-mute-soft);
+  text-transform: uppercase;
+}
+
+.right {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-family: var(--obs-font-mono);
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: var(--obs-mute-soft);
+}

@@ -1,0 +1,17 @@
+.avatar {
+  width: 96px;
+  height: 96px;
+  background: var(--obs-ink);
+  border: 1px solid var(--obs-line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.aura {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, var(--obs-accent-dim) 0%, transparent 55%);
+}

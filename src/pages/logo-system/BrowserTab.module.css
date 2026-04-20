@@ -1,0 +1,19 @@
+.tab {
+  background: #1c1f26;
+  border-radius: 8px 8px 0 0;
+  padding: 8px 14px 8px 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--obs-font-body);
+  font-size: 12px;
+  color: var(--obs-mute);
+  border: 1px solid var(--obs-line);
+  border-bottom: none;
+  min-width: 220px;
+}
+
+.close {
+  margin-left: auto;
+  color: var(--obs-mute-soft);
+}
