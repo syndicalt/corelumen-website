@@ -1,0 +1,48 @@
+.section {
+  padding: 96px 48px;
+  border-bottom: 1px solid var(--obs-line);
+}
+
+.tight {
+  padding: 64px 48px;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  gap: 32px;
+  align-items: baseline;
+  margin-bottom: 48px;
+}
+
+.number {
+  font-family: var(--obs-font-mono);
+  font-size: 11px;
+  color: var(--obs-accent);
+  letter-spacing: 2px;
+}
+
+.headBlock {
+  flex: 1;
+}
+
+.title {
+  font-family: var(--obs-font-display);
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: -0.8px;
+  line-height: 1.05;
+  color: var(--obs-text);
+}
+
+.sub {
+  margin-top: 14px;
+  max-width: 620px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--obs-mute);
+}

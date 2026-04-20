@@ -1,0 +1,29 @@
+.callout {
+  padding: 20px 24px;
+  background: var(--obs-panel);
+  border-left: 2px solid var(--obs-accent);
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--obs-text);
+}
+
+.doKind {
+  border-left-color: var(--obs-accent);
+}
+
+.dontKind {
+  border-left-color: #e88b7d;
+}
+
+.label {
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  margin-bottom: 6px;
+  color: var(--obs-accent);
+}
+
+.dontKind .label {
+  color: #e88b7d;
+}

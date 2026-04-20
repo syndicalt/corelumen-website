@@ -1,0 +1,24 @@
+.swatch {
+  height: 120px;
+  border: 1px solid var(--obs-line);
+  display: flex;
+  align-items: flex-end;
+  padding: 14px;
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  color: var(--obs-mute);
+  letter-spacing: 0.5px;
+}
+
+.role {
+  color: var(--obs-mute-soft);
+}

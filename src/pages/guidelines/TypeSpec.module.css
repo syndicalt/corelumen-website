@@ -1,0 +1,20 @@
+.spec {
+  padding: 28px 0;
+  border-top: 1px solid var(--obs-line);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  color: var(--obs-mute);
+  letter-spacing: 1.5px;
+  margin-bottom: 18px;
+}
+
+.sample {
+  line-height: 1;
+  letter-spacing: -1px;
+  color: var(--obs-text);
+}

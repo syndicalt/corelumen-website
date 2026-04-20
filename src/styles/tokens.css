@@ -1,0 +1,16 @@
+:root {
+  --obs-ink: #08090c;
+  --obs-panel: #101217;
+  --obs-surface: #171a21;
+  --obs-line: #242832;
+  --obs-line-soft: #1a1d24;
+  --obs-text: #eeeae0;
+  --obs-mute: #888778;
+  --obs-mute-soft: #5e5d55;
+  --obs-accent: #ffe6a8;
+  --obs-accent-dim: rgba(255, 230, 168, 0.25);
+
+  --obs-font-display: 'Fraunces', Georgia, serif;
+  --obs-font-body: 'Inter', -apple-system, system-ui, sans-serif;
+  --obs-font-mono: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace;
+}

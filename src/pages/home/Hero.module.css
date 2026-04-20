@@ -1,0 +1,89 @@
+.hero {
+  position: relative;
+  min-height: 88vh;
+  padding: 140px 48px 120px;
+  overflow: hidden;
+}
+
+.aura {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 900px;
+  pointer-events: none;
+  background: radial-gradient(circle, var(--obs-accent-dim) 0%, transparent 55%);
+  opacity: 0.35;
+}
+
+.inner {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.kicker {
+  margin-top: 44px;
+  font-family: var(--obs-font-mono);
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  color: var(--obs-accent);
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 28px auto 0;
+  max-width: 900px;
+  font-family: var(--obs-font-display);
+  font-weight: 300;
+  font-size: 84px;
+  line-height: 1;
+  letter-spacing: -2.6px;
+  color: var(--obs-text);
+}
+
+.italic {
+  font-style: italic;
+  color: var(--obs-accent);
+}
+
+.lede {
+  margin: 36px auto 0;
+  max-width: 640px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--obs-mute);
+}
+
+.cta {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-family: var(--obs-font-mono);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.btnPrimary {
+  background: var(--obs-accent);
+  color: var(--obs-ink);
+  font-weight: 500;
+}
+
+.btnGhost {
+  border: 1px solid var(--obs-line);
+  color: var(--obs-text);
+}

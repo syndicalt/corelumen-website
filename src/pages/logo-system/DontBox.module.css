@@ -1,0 +1,28 @@
+.box {
+  background: var(--obs-panel);
+  border: 1px solid var(--obs-line);
+  padding: 36px;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-family: var(--obs-font-mono);
+  font-size: 11px;
+  color: #e88b7d;
+  letter-spacing: 1.5px;
+}
+
+.note {
+  margin-top: 10px;
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  color: var(--obs-mute);
+  letter-spacing: 0.5px;
+}

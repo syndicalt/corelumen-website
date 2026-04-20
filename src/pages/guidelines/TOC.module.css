@@ -1,0 +1,27 @@
+.toc {
+  position: sticky;
+  top: 80px;
+  align-self: start;
+  padding-right: 32px;
+  font-family: var(--obs-font-mono);
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.label {
+  color: var(--obs-mute-soft);
+  margin-bottom: 16px;
+}
+
+.item {
+  display: block;
+  padding: 8px 0;
+  color: var(--obs-mute);
+  border-bottom: 1px solid var(--obs-line-soft);
+}
+
+.number {
+  color: var(--obs-accent);
+  margin-right: 10px;
+}

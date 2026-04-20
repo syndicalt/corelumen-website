@@ -1,0 +1,65 @@
+.lockupsGrid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 20px;
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.threeCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.faviconRow {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.appIconRow {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.appIconSpec {
+  color: var(--obs-mute);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 360px;
+}
+
+.specLabel {
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--obs-mute-soft);
+  margin-bottom: 12px;
+}
+
+.dontsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer {
+  padding: 56px 48px;
+  text-align: center;
+}
+
+.footerMeta {
+  margin-top: 16px;
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  color: var(--obs-mute-soft);
+  letter-spacing: 1.5px;
+}

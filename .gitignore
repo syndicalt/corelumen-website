@@ -1,1 +1,10 @@
 internal/
+
+# Build / deps
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Railway
+.railway/

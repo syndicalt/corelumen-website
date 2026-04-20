@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Workflow
+
+This repo uses **shiplog** in **Full Mode** — plans, decisions, and timeline live directly in GitHub issues and PRs, not in a `--log` side branch. Routing is `confirm` (see `.shiplog/routing.md`).
+
 ## Repository scope
 
 Static marketing site for **CoreLumen**, a small software studio (Provara, Pathlight, Divita). No package manager, build step, bundler, or test suite — each page is a standalone HTML file that loads React + Babel from CDNs and transpiles JSX in the browser at runtime.
