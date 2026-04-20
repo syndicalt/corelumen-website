@@ -6,9 +6,9 @@ function renderLinks(active) {
     return [
       { href: '/#products', label: 'Products' },
       { href: '/#studio', label: 'Studio' },
-      { href: '/#writing', label: 'Writing' },
-      { href: '/logo-system/', label: 'Logo system →' },
-      { href: '/guidelines/', label: 'Guidelines →' },
+      // { href: '/#writing', label: 'Writing' },
+      // { href: '/logo-system/', label: 'Logo system →' },
+      // { href: '/guidelines/', label: 'Guidelines →' },
     ].map((link) => (
       <a key={link.href} href={link.href} className={styles.link}>
         {link.label}

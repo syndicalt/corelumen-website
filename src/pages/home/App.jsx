@@ -12,7 +12,6 @@ export function App() {
       <Hero />
       <Products />
       <Principles />
-      <Writing />
       <Footer />
     </div>
   );
