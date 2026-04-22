@@ -10,7 +10,7 @@ export function CorelumenWordmark({ size = 28, color = 'var(--obs-text)' }) {
         lineHeight: 1,
       }}
     >
-      Corelumen
+      CoreLumen
     </span>
   );
 }
