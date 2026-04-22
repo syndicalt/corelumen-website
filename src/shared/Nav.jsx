@@ -5,7 +5,7 @@ function renderLinks(active) {
   if (active === 'home') {
     return [
       { href: '/#products', label: 'Products' },
-      { href: '/#studio', label: 'Studio' },
+      // { href: '/#studio', label: 'Studio' },
       // { href: '/#writing', label: 'Writing' },
       // { href: '/logo-system/', label: 'Logo system →' },
       // { href: '/guidelines/', label: 'Guidelines →' },
