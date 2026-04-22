@@ -24,18 +24,17 @@ export function Hero() {
           A <span className={styles.italic}>small</span> software studio.
         </h1>
         <p className={styles.lede}>
-          CoreLumen is a small studio making software for developers, writers, and
-          designers. Each product stands on its own — carefully made, carefully
+          CoreLumen is a small studio making software for that makes life easier for creators, consumers, and enterprise. Each product stands on its own — carefully made, carefully
           maintained, and built to last.
         </p>
-        <div className={styles.cta}>
+        {/* <div className={styles.cta}>
           <a href="#products" className={`${styles.btn} ${styles.btnPrimary}`}>
             See the products
           </a>
           <a href="#studio" className={`${styles.btn} ${styles.btnGhost}`}>
             About the studio
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
