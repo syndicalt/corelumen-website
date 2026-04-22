@@ -2,9 +2,9 @@ import { LockupHorizontal } from '../../brand/index.js';
 import styles from './Footer.module.css';
 
 const COLUMNS = [
-  ['Products', ['Provara', 'Pathlight', 'Divita']],
-  ['Studio', ['About', 'Writing', 'Principles']],
-  ['Elsewhere', ['GitHub', 'X', 'RSS']],
+  ['Products', [{'name': 'Provara', 'link': 'https://www.provara.xyz/'}, {'name': 'Pathlight', 'link': 'https://syndicalt.github.io/pathlight/'}, {'name': 'Divita', 'link': 'https://www.divita.app/'}]],
+  //['Studio', ['About', 'Writing', 'Principles']],
+  ['Elsewhere', [{ 'name': 'GitHub', 'link': 'https://github.com/syndicalt/' }, { 'name': 'X', 'link': 'https://x.com/corelumen' }]],
 ];
 
 export function Footer() {
@@ -22,8 +22,8 @@ export function Footer() {
             <div key={title}>
               <div className={styles.colTitle}>{title}</div>
               {items.map((it) => (
-                <div key={it} className={styles.colItem}>
-                  {it}
+                <div key={it.name} className={styles.colItem}>
+                  <a href={it.link} target='_blank'>{it.name}</a>
                 </div>
               ))}
             </div>
