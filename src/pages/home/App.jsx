@@ -11,7 +11,8 @@ export function App() {
       <Nav active="home" />
       <Hero />
       <Products />
-      <Principles />
+      {/* <Principles />
+      <Writing /> */}
       <Footer />
     </div>
   );
