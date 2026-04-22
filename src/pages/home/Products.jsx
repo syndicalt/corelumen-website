@@ -12,7 +12,7 @@ export function Products() {
           <div>
             <div className={styles.kicker}>Products</div>
             <h2 className={styles.heading}>
-              Three <span className={styles.italic}>live</span>.
+              Made with <span className={styles.italic}>care</span>.
             </h2>
           </div>
           <div className={styles.meta}>
