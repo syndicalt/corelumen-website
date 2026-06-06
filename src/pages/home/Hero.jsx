@@ -12,29 +12,35 @@ export function Hero() {
   }, []);
 
   return (
-    <section className={styles.hero}>
+    <section id="thesis" className={styles.hero}>
       <Starfield />
       <div className={styles.aura} />
       <div className={styles.inner}>
         <div key={replay} className={styles.markWrap}>
           <ObservatoryMark size={120} animated={true} />
         </div>
-        <div className={styles.kicker}>A product studio · est. 2026</div>
+        <div className={styles.kicker}>CoreLumen · Rhizomatic Engineering</div>
         <h1 className={styles.title}>
-          A <span className={styles.italic}>small</span> software studio.
+          Software that can remember, prove, repair, and act with permission.
         </h1>
         <p className={styles.lede}>
-          CoreLumen is a small studio making software for that makes life easier for creators, consumers, and enterprise. Each product stands on its own — carefully made, carefully
-          maintained, and built to last.
+          CoreLumen builds operating systems, tools, and applications as a
+          connected field of work. One founder is building deliberately across
+          related systems where memory, provenance, repair, and authority matter.
         </p>
-        {/* <div className={styles.cta}>
-          <a href="#products" className={`${styles.btn} ${styles.btnPrimary}`}>
-            See the products
+        <div className={styles.cta}>
+          <a href="#systems" className={`${styles.btn} ${styles.btnPrimary}`}>
+            Explore the systems
           </a>
-          <a href="#studio" className={`${styles.btn} ${styles.btnGhost}`}>
-            About the studio
+          <a href="#contact" className={`${styles.btn} ${styles.btnGhost}`}>
+            Start a conversation
           </a>
-        </div> */}
+        </div>
+        <div className={styles.proofStrip} aria-label="CoreLumen proof points">
+          <span>One founder</span>
+          <span>11 systems</span>
+          <span>2026 active build</span>
+        </div>
       </div>
     </section>
   );

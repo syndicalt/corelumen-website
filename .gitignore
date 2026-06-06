@@ -8,3 +8,9 @@ dist/
 
 # Railway
 .railway/
+
+# Local agent/tool state
+.codex/
+.env.local
+.eventloom/
+.superpowers/

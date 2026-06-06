@@ -1,0 +1,86 @@
+.section {
+  padding: 104px 48px;
+  border-top: 1px solid var(--obs-line);
+  background: rgba(16, 18, 23, 0.28);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 0.85fr);
+  gap: 64px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.kicker {
+  margin: 0 0 18px;
+  font-family: var(--obs-font-mono);
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  color: var(--obs-accent);
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  max-width: 680px;
+  font-family: var(--obs-font-display);
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 1.03;
+  letter-spacing: 0;
+  color: var(--obs-text);
+}
+
+.copy p {
+  margin: 0;
+  color: var(--obs-mute);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.copy p + p {
+  margin-top: 20px;
+}
+
+.principles {
+  display: grid;
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.principle {
+  padding-top: 16px;
+  border-top: 1px solid var(--obs-line);
+}
+
+.principle h3 {
+  margin: 0;
+  font-family: var(--obs-font-mono);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: var(--obs-text);
+  text-transform: uppercase;
+}
+
+.principle p {
+  margin-top: 9px;
+  font-size: 14px;
+}
+
+@media (max-width: 860px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+}
+
+@media (max-width: 560px) {
+  .section {
+    padding: 76px 20px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+}

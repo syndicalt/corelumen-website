@@ -2,9 +2,29 @@ import { LockupHorizontal } from '../../brand/index.js';
 import styles from './Footer.module.css';
 
 const COLUMNS = [
-  ['Products', [{'name': 'Provara', 'link': 'https://www.provara.xyz/'}, {'name': 'Pathlight', 'link': 'https://syndicalt.github.io/pathlight/'}, {'name': 'Divita', 'link': 'https://www.divita.app/'}]],
-  //['Studio', ['About', 'Writing', 'Principles']],
-  ['Elsewhere', [{ 'name': 'GitHub', 'link': 'https://github.com/syndicalt/' }, { 'name': 'X', 'link': 'https://x.com/corelumen' }]],
+  [
+    'Systems',
+    [
+      { name: 'Zaxy', link: 'https://github.com/syndicalt/zaxy' },
+      { name: 'Pathlight', link: 'https://github.com/syndicalt/pathlight' },
+      { name: 'Provara', link: 'https://github.com/syndicalt/provara' },
+      { name: 'Divita', link: 'https://www.divita.app/' },
+    ],
+  ],
+  [
+    'Company',
+    [
+      { name: 'Founder', link: '#founder' },
+      { name: 'Contact', link: '#contact' },
+    ],
+  ],
+  [
+    'Elsewhere',
+    [
+      { name: 'GitHub', link: 'https://github.com/syndicalt/' },
+      { name: 'X', link: 'https://x.com/corelumen' },
+    ],
+  ],
 ];
 
 export function Footer() {
@@ -15,7 +35,8 @@ export function Footer() {
           <div>
             <LockupHorizontal size={18} />
             <p className={styles.blurb}>
-              A small studio making software for developers, writers, and designers.
+              Operating systems, tools, and applications for software that can remember,
+              prove, repair, and act with permission.
             </p>
           </div>
           {COLUMNS.map(([title, items]) => (
@@ -23,7 +44,9 @@ export function Footer() {
               <div className={styles.colTitle}>{title}</div>
               {items.map((it) => (
                 <div key={it.name} className={styles.colItem}>
-                  <a href={it.link} target='_blank'>{it.name}</a>
+                  <a href={it.link} target={it.link.startsWith('http') ? '_blank' : undefined} rel={it.link.startsWith('http') ? 'noopener noreferrer' : undefined}>
+                    {it.name}
+                  </a>
                 </div>
               ))}
             </div>
@@ -31,7 +54,7 @@ export function Footer() {
         </div>
         <div className={styles.bottom}>
           <span>© 2026 CORELUMEN · NICHOLAS BLANCHARD</span>
-          <span>Small software, made carefully.</span>
+          <span>Founder OS for modern automation.</span>
         </div>
       </div>
     </footer>

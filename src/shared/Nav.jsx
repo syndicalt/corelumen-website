@@ -4,11 +4,11 @@ import styles from './Nav.module.css';
 function renderLinks(active) {
   if (active === 'home') {
     return [
-      { href: '/#products', label: 'Products' },
-      // { href: '/#studio', label: 'Studio' },
-      // { href: '/#writing', label: 'Writing' },
-      // { href: '/logo-system/', label: 'Logo system →' },
-      // { href: '/guidelines/', label: 'Guidelines →' },
+      { href: '/#thesis', label: 'Thesis' },
+      { href: '/#systems', label: 'Systems' },
+      { href: '/#proof', label: 'Proof' },
+      { href: '/#founder', label: 'Founder' },
+      { href: '/#contact', label: 'Contact' },
     ].map((link) => (
       <a key={link.href} href={link.href} className={styles.link}>
         {link.label}
