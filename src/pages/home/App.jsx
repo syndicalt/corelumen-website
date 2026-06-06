@@ -1,8 +1,10 @@
 import { Nav } from '../../shared/Nav.jsx';
 import { Hero } from './Hero.jsx';
-import { Products } from './Products.jsx';
-import { Principles } from './Principles.jsx';
-import { Writing } from './Writing.jsx';
+import { RhizomaticEngineering } from './RhizomaticEngineering.jsx';
+import { SystemMap } from './SystemMap.jsx';
+import { EventStream } from './EventStream.jsx';
+import { FounderNote } from './FounderNote.jsx';
+import { Contact } from './Contact.jsx';
 import { Footer } from './Footer.jsx';
 
 export function App() {
@@ -10,9 +12,11 @@ export function App() {
     <div>
       <Nav active="home" />
       <Hero />
-      <Products />
-      {/* <Principles />
-      <Writing /> */}
+      <RhizomaticEngineering />
+      <SystemMap />
+      <EventStream />
+      <FounderNote />
+      <Contact />
       <Footer />
     </div>
   );

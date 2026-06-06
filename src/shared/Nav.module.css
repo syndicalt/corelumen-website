@@ -28,3 +28,18 @@
 .active {
   color: var(--obs-accent);
 }
+
+@media (max-width: 760px) {
+  .nav {
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .links {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    font-size: 10px;
+  }
+}
