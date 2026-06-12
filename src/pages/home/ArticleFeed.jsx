@@ -16,10 +16,6 @@ export function ArticleFeed() {
           <h2 id="articles-heading" className={styles.title}>
             Published notes from the field.
           </h2>
-          <p className={styles.lede}>
-            Longer notes can start on X and still live here as a durable archive:
-            image, summary, source link, and enough context to stay useful later.
-          </p>
         </div>
 
         <div className={styles.grid}>
