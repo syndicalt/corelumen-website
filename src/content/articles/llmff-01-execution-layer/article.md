@@ -1,5 +1,5 @@
 ---
-title: "he Execution Layer LLM Systems Were Missing"
+title: "The Execution Layer LLM Systems Were Missing"
 date: "2026-06-11"
 source: "X"
 url: "https://x.com/corelumen/status/2064805136149455055"
